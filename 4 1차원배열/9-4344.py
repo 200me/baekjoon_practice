@@ -18,3 +18,5 @@ for i in range(num):
     #print(round(dec_num, 3)) 소수점 끝자리가 0일때 3번째까지 안나옴
 
     print("{:.3f}%".format(dec_num)) #무조건 3번째까지 출력 가능
+
+#1시간
