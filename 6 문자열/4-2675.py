@@ -6,3 +6,4 @@ for i in range(T):
         print(j*int(num), end='')
     print()
 
+#개행문자 오류
