@@ -6,3 +6,5 @@ for i in range(T):  # 몇 번 돌릴건지
     floor = N % H  # 층 수 (앞자리)
     if N % H == 0:
         num = N // H
+        floor = H
+    print(f'{floor*100+num}')
