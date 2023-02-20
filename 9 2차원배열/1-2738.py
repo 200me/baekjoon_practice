@@ -2,6 +2,8 @@ A, B = [], []
 
 N, M = map(int,input().split())
 
-for i in range(N):
-    i = list(map(int,input().split()))
-    A.append(i)
+for i in [A, B]:
+   for j in range(N):
+    i.append(list(map(int, input().split())))
+
+for j in 
