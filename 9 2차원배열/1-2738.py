@@ -6,4 +6,8 @@ for i in [A, B]:
    for j in range(N):
     i.append(list(map(int, input().split())))
 
-for j in 
+for i in range(N):
+    for j in range(M):
+        A[i][j] += B[i][j]
+
+    print(*A[i])
