@@ -1,6 +1,12 @@
 N = int(input())
 
-word = 0
-for _ in range(N):
-    wd = input()
-    error = 0
+count = N
+for i in range(N):
+    word = input()
+    for j in range(0,len(word)-1):
+        if word[j] == word[j+1]:
+            pass
+        elif word[j] in word[j+1:]:
+            word -= 1
+            break
+print(count)
