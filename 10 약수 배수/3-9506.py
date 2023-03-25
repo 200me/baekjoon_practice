@@ -3,4 +3,4 @@ while True:
     if N == -1:
         break;
     arr = []
-    
+    for i in range(1,N):
