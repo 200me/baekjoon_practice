@@ -8,3 +8,5 @@ while True:
             arr.append(i)
     if sum(arr) == N:
         print(N, " = ", " + ".join(str(i) for i in arr), sep="")
+    else:
+        print(N, "is NOT perfect.")
