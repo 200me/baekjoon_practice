@@ -4,3 +4,7 @@ while True:
         break;
     arr = []
     for i in range(1,N):
+        if N % i == 0:
+            arr.append(i)
+    if sum(arr) == N:
+        print(N, )
