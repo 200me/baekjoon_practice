@@ -7,4 +7,4 @@ while True:
         if N % i == 0:
             arr.append(i)
     if sum(arr) == N:
-        print(N, )
+        print(N, " = ", " + ".join(str(i) for i in arr), sep="")
