@@ -3,7 +3,14 @@ length = []
 
 for _ in range(5):
     word = input()
-    word.
+    word.append(word)
+    length.append(len(word))
+
+t = ''
+for i in range(max(length)):
+    for j in range(5):
+        if i < length[j]:
+            t += word1[j][i]
 
 
 
