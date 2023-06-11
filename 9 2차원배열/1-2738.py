@@ -11,3 +11,4 @@ for i in range(N):
         A[i][j] += B[i][j]
 
     print(*A[i])
+
