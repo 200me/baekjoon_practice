@@ -14,4 +14,5 @@ cnt = 0
 for i in set_2:
     if i in set_1:
         cnt += 1
+
 print(cnt)
