@@ -11,3 +11,6 @@ answer = 0
 for row in M:
     answer += row.count(1)
 print(answer)
+
+
+#connect test
